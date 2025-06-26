@@ -1,12 +1,12 @@
 import React from 'react'
 import { IoMdStar } from 'react-icons/io'
 import { LuPencil } from 'react-icons/lu'
-import { MdOutlineDrafts, MdOutlineKeyboardArrowDown, MdOutlineWatchLater } from 'react-icons/md'
+import { MdInbox, MdOutlineDrafts, MdOutlineKeyboardArrowDown, MdOutlineWatchLater } from 'react-icons/md'
 import { TbSend2 } from 'react-icons/tb'
 
 const SidebarItems = [
     {
-        icon:<LuPencil size={'24px'}/>,
+        icon:<MdInbox size={'24px'}/>,
         text:"Inbox"
 
     },
